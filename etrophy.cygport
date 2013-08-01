@@ -15,3 +15,5 @@ HOMEPAGE="http://www.enlightenment.org/"
 PKG_NAMES="libetrophy0 libetrophy-devel"
 libetrophy0_CONTENTS="usr/bin/cygetrophy-0.dll usr/share/"
 libetrophy_devel_CONTENTS="usr/include/ usr/lib/"
+
+KEEP_LA_FILES="none"
