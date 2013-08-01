@@ -1,0 +1,17 @@
+GIT_URI="git://git.enlightenment.org/games/etrophy.git"
+GIT_REV=8df5be2
+inherit git
+
+NAME="etrophy"
+VERSION=0.5.1
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="Enlightenment games library"
+DESCRIPTION="Etrophy is a library that manages scores, trophies and
+unlockables. It will store them and provide views to display them. Could be
+used by games based on EFL."
+HOMEPAGE="http://www.enlightenment.org/"
+
+PKG_NAMES="libetrophy0 libetrophy-devel"
+libetrophy0_CONTENTS="usr/bin/cygetrophy-0.dll usr/share/"
+libetrophy_devel_CONTENTS="usr/include/ usr/lib/"
